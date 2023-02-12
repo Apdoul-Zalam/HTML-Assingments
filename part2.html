@@ -82,6 +82,12 @@
     <a href="index.html">
       <button>Go Back</button>
       </a>
-      <a href="#myTop"><button>ScrollToTop</button></a>
+      <a href="#MyTop"><button onclick="scrollToTop()">Back to Top</button>
+   <script>
+     function scrollToTop() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+     }
+   </script> 
   </body>
 </html>
